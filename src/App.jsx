@@ -1,12 +1,11 @@
-import './App.css'
+import React from 'react'
+import TransactionSection from './Components/TransactionSection'
 
 function App() {
+  return(
+    <TransactionSection/>
 
-  return (
-    <>
-      Person Expense Tracking
-    </>
   )
-}
 
+  }
 export default App
